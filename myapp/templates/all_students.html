@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <ul>
+            {%for s in students%}
+            <li><p><a href="student/{{s.id}}">name :{{s.name}}</a></p></li>
+            {%endfor%}
+        </ul>
+        
+        <button><a href="/">go to home page</a></button>
+    </body>
+</html>

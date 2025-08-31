@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <ul>
+            {%for person in names%}
+                <li><h3>my name is {{person.name}}</h3></li>
+                <li><h4>my age is {{person.age}}</h4></li>
+            {%endfor%} 
+        </ul>
+        <button><a href="/students">all students details</a></button>
+    </body>
+</html>
